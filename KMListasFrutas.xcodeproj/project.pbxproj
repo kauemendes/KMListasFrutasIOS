@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8D27082A1AC4BE8D00F0CF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2708291AC4BE8D00F0CF4A /* AppDelegate.swift */; };
-		8D27082C1AC4BE8D00F0CF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27082B1AC4BE8D00F0CF4A /* ViewController.swift */; };
 		8D27082F1AC4BE8D00F0CF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27082D1AC4BE8D00F0CF4A /* Main.storyboard */; };
 		8D2708311AC4BE8D00F0CF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2708301AC4BE8D00F0CF4A /* Images.xcassets */; };
 		8D2708341AC4BE8D00F0CF4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2708321AC4BE8D00F0CF4A /* LaunchScreen.xib */; };
 		8D2708401AC4BE8D00F0CF4A /* KMListasFrutasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27083F1AC4BE8D00F0CF4A /* KMListasFrutasTests.swift */; };
+		8D27084C1AC4C22A00F0CF4A /* KMFrutasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27084B1AC4C22A00F0CF4A /* KMFrutasTableViewController.swift */; };
+		8D27084E1AC4CC0600F0CF4A /* KMFFrutasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27084D1AC4CC0600F0CF4A /* KMFFrutasTableViewCell.swift */; };
+		8D2708501AC4D68800F0CF4A /* KMFFrutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27084F1AC4D68800F0CF4A /* KMFFrutasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		8D2708241AC4BE8C00F0CF4A /* KMListasFrutas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMListasFrutas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2708281AC4BE8D00F0CF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2708291AC4BE8D00F0CF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D27082B1AC4BE8D00F0CF4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D27082E1AC4BE8D00F0CF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D2708301AC4BE8D00F0CF4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D2708331AC4BE8D00F0CF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D2708391AC4BE8D00F0CF4A /* KMListasFrutasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMListasFrutasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D27083E1AC4BE8D00F0CF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D27083F1AC4BE8D00F0CF4A /* KMListasFrutasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMListasFrutasTests.swift; sourceTree = "<group>"; };
+		8D27084B1AC4C22A00F0CF4A /* KMFrutasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMFrutasTableViewController.swift; sourceTree = "<group>"; };
+		8D27084D1AC4CC0600F0CF4A /* KMFFrutasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMFFrutasTableViewCell.swift; sourceTree = "<group>"; };
+		8D27084F1AC4D68800F0CF4A /* KMFFrutasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMFFrutasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				8D2708291AC4BE8D00F0CF4A /* AppDelegate.swift */,
-				8D27082B1AC4BE8D00F0CF4A /* ViewController.swift */,
+				8D27084B1AC4C22A00F0CF4A /* KMFrutasTableViewController.swift */,
+				8D27084D1AC4CC0600F0CF4A /* KMFFrutasTableViewCell.swift */,
+				8D27084F1AC4D68800F0CF4A /* KMFFrutasViewController.swift */,
 				8D27082D1AC4BE8D00F0CF4A /* Main.storyboard */,
 				8D2708301AC4BE8D00F0CF4A /* Images.xcassets */,
 				8D2708321AC4BE8D00F0CF4A /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D27082C1AC4BE8D00F0CF4A /* ViewController.swift in Sources */,
+				8D27084C1AC4C22A00F0CF4A /* KMFrutasTableViewController.swift in Sources */,
+				8D27084E1AC4CC0600F0CF4A /* KMFFrutasTableViewCell.swift in Sources */,
+				8D2708501AC4D68800F0CF4A /* KMFFrutasViewController.swift in Sources */,
 				8D27082A1AC4BE8D00F0CF4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
